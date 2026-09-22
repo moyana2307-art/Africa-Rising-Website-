@@ -11,7 +11,7 @@ export default function Home() {
           <em>Feel Alive.</em>
         </h1>
         <p className="reveal" style={{ transitionDelay: '240ms' }}>
-          Handpicked safaris, adventures and cultural escapes — crafted for you, booked
+          Handpicked safaris, adventures and cultural escapes crafted for you, booked
           in minutes.
         </p>
         <div className="hero-actions reveal" style={{ transitionDelay: '360ms' }}>

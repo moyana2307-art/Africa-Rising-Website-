@@ -9,7 +9,7 @@ export default function About() {
         <div className="editorial-lede">
           <p>
             From the smoke of Victoria Falls to the wild open bushveld, Africa Rising
-            crafts personal, handpicked journeys across the continent — for adventurers,
+            crafts personal, handpicked journeys across the continent for adventurers,
             culture lovers and relaxed explorers alike.
           </p>
           <a href="#contact" className="text-link">Start a conversation <span>&rarr;</span></a>
@@ -18,7 +18,7 @@ export default function About() {
 
       <figure className="about-figure reveal">
         <img src="/1.jpg" alt="An Africa Rising journey" loading="lazy" />
-        <figcaption>On location — Victoria Falls, Zimbabwe</figcaption>
+        <figcaption>On location Victoria Falls, Zimbabwe</figcaption>
       </figure>
 
       <div className="about-columns">
@@ -29,7 +29,7 @@ export default function About() {
             Africa Rising Safaris began with one simple goal: sharing the real Africa with
             the world. What started as small guided trips grew into a trusted tour company
             known for personal service, local relationships and a genuine love for what we
-            do. Today we carry that same passion — every trip promises an unforgettable
+            do. Today we carry that same passion every trip promises an unforgettable
             connection to Africa's heart and soul.
           </p>
         </article>
@@ -38,7 +38,7 @@ export default function About() {
           <span className="col-index">02</span>
           <h3>Our Mission</h3>
           <p>
-            Safe, affordable and unforgettable journeys — thoughtfully planned, expertly
+            Safe, affordable and unforgettable journeys thoughtfully planned, expertly
             guided, and always supporting the local communities and landscapes we visit.
           </p>
           <img src="/assets/car 2.jpeg" alt="Africa Rising fleet" className="col-figure" loading="lazy" />
@@ -48,7 +48,7 @@ export default function About() {
           <span className="col-index">03</span>
           <h3>Our Vision</h3>
           <p>
-            To be Africa's most trusted travel company — known for excellence,
+            To be Africa's most trusted travel company known for excellence,
             sustainability and journeys that connect travellers deeply with Africa's
             heritage and natural beauty.
           </p>

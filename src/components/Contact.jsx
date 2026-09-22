@@ -36,7 +36,7 @@ export default function Contact() {
           <span className="kicker dark">Reach Out</span>
           <h2>Start your journey</h2>
           <p>
-            Every trip begins with a conversation. Tell us what's calling you — the
+            Every trip begins with a conversation. Tell us what's calling you the
             landscapes, the pace, the moments you want to savour. We'll handle the rest.
           </p>
         </div>
@@ -46,7 +46,7 @@ export default function Contact() {
             <span className="kicker dark">Get In Touch</span>
             <h3>We reply fast.</h3>
             <p>
-              The quickest way to reach us is WhatsApp — usually within a few hours.
+              The quickest way to reach us is WhatsApp usually within a few hours.
               Email works too, and we always reply within 24 hours.
             </p>
 

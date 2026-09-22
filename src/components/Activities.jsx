@@ -11,7 +11,7 @@ export default function Activities() {
         </div>
         <div className="editorial-lede">
           <p>
-            From sunset cruises to white-water thrills — pick your adventure and we'll
+            From sunset cruises to white-water thrills pick your adventure and we'll
             handle the rest. Every experience is guided, safe and unforgettable.
           </p>
         </div>
