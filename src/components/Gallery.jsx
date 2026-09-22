@@ -28,7 +28,7 @@ export default function Gallery() {
     <section className="gallery-section" id="gallery">
       <div className="gallery-container">
         <div className="section-intro reveal">
-          <span className="kicker dark">Moments</span>
+          <span className="kicker dark">Gallery</span>
           <h2>From our gallery</h2>
           <p>A collection of our favourite moments across Zimbabwe and beyond.</p>
         </div>

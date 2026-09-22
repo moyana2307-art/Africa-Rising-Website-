@@ -1,5 +1,12 @@
 import { NAV_LINKS } from '../data.js'
-import { WHATSAPP_DISPLAY, EMAIL, LOCATION, whatsappLink } from '../config.js'
+import {
+  WHATSAPP_DISPLAY,
+  EMAIL,
+  LOCATION,
+  whatsappLink,
+  DEVELOPER_NUMBER,
+  DEVELOPER_DISPLAY,
+} from '../config.js'
 
 export default function Footer() {
   return (
@@ -52,9 +59,15 @@ export default function Footer() {
           <ul>
             <li><a href={`mailto:${EMAIL}`}>{EMAIL}</a></li>
             <li>
-              <a href={whatsappLink()} target="_blank" rel="noopener noreferrer" className="whatsapp-link">
+              <a
+                href={whatsappLink('Hello Africa Rising Safaris! I would like to enquire about your tours.')}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="whatsapp-link"
+              >
                 {WHATSAPP_DISPLAY}
               </a>
+              <span className="footer-muted"> (WhatsApp)</span>
             </li>
             <li><span className="footer-muted">{LOCATION}</span></li>
           </ul>
@@ -63,7 +76,17 @@ export default function Footer() {
 
       <div className="footer-bottom">
         <p>&copy; 2026 Africa Rising Safaris. All rights reserved.</p>
-        <p>Designed by Click and Create (Pride Moyana)</p>
+        <p>
+          Designed by Click and Create (Pride Moyana)
+          <a
+            href={whatsappLink('Hello Pride Moyana! I would like to enquire about a website or design project.', DEVELOPER_NUMBER)}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="footer-dev-whatsapp"
+          >
+            {DEVELOPER_DISPLAY}
+          </a>
+        </p>
       </div>
     </footer>
   )

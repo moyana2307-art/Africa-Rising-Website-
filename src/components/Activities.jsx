@@ -36,7 +36,7 @@ export default function Activities() {
               rel="noopener noreferrer"
               className="text-link"
             >
-              Book on WhatsApp <span>&rarr;</span>
+              Book Now <span>&rarr;</span>
             </a>
           </article>
         ))}

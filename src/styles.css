@@ -1017,9 +1017,32 @@ footer {
     color: var(--gold-soft);
 }
 
+/* WhatsApp number in the footer */
+.footer-links ul li a.whatsapp-link {
+    color: #3FCF7A;
+}
+
+.footer-links ul li a.whatsapp-link:hover {
+    color: #6BE49C;
+}
+
 .footer-muted {
     color: rgba(255, 255, 255, 0.45);
     font-size: 0.92rem;
+}
+
+/* Developer credit WhatsApp number */
+.footer-dev-whatsapp {
+    display: block;
+    margin-top: 7px;
+    color: #3FCF7A;
+    text-decoration: none;
+    letter-spacing: 0.08em;
+    transition: color 0.3s ease;
+}
+
+.footer-dev-whatsapp:hover {
+    color: #6BE49C;
 }
 
 .footer-bottom {

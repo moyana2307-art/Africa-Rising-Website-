@@ -17,7 +17,7 @@ export default function About() {
       </div>
 
       <figure className="about-figure reveal">
-        <img src="/2.jpg" alt="An Africa Rising journey" loading="lazy" />
+        <img src="/1.jpg" alt="An Africa Rising journey" loading="lazy" />
         <figcaption>On location — Victoria Falls, Zimbabwe</figcaption>
       </figure>
 

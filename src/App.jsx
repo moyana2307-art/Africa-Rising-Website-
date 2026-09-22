@@ -11,6 +11,28 @@ import FloatingWhatsApp from './components/FloatingWhatsApp.jsx'
 export default function App() {
   // Scroll-reveal: adds .is-visible to any .reveal element when it enters the viewport.
   useEffect(() => {
+    // Fallback path: reveal anything that has entered the viewport, driven by
+    // scroll/load. Used when IntersectionObserver is unavailable so section
+    // content can never be left stuck at opacity: 0.
+    const revealInView = () => {
+      document.querySelectorAll('.reveal:not(.is-visible)').forEach((el) => {
+        const rect = el.getBoundingClientRect()
+        if (rect.bottom > 0 && rect.top < window.innerHeight - 40) {
+          el.classList.add('is-visible')
+        }
+      })
+    }
+
+    if (typeof IntersectionObserver === 'undefined') {
+      revealInView()
+      window.addEventListener('scroll', revealInView, { passive: true })
+      window.addEventListener('load', revealInView)
+      return () => {
+        window.removeEventListener('scroll', revealInView)
+        window.removeEventListener('load', revealInView)
+      }
+    }
+
     const els = document.querySelectorAll('.reveal')
     const observer = new IntersectionObserver(
       (entries) => {
